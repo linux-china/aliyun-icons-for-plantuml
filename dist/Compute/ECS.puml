@@ -1,0 +1,10 @@
+sprite $ECS [200x200/16z] {
+xTmtSaCn38R1XWEKkFzjFQoSim88xLOkzJi-az-exWi00000MDbCr1z4TbI_bKtzuLjgm91iRCICRSICxS5sP7jss76t8T7aHSO_T_Hv63nvHxrqxevwRSgE
+EdH7pTXHx_NQOKSCsL5s-FcmuzE3Ddy7FPTSmeZdn6t4S_lsanTonjdkjpDoo3b333_tiSC1huk3rMc72wa1jyxRZ8ld6142HFtDW140W5vKBweNRJT3BweN
+rOlgHUtePTr-XrvqdTsBhe6zwBhl3htecjUBwg_iq2VQuUV33hrew4NreX_IYyRXlMZeHPrVsU60Lo_QXLvKBweNrOls1m3eHVMYUb6zg5vKBweNTKvjXrvq
+VpZYdjFxY-f5zQBUNzGEE-omusRqeluEUhxIYvxzVrGCUN_HhI9JB-hSvwBiq8lgHVMYUj56zABteXS50000u0a
+}
+
+AliyunEntityColoring(ECS)
+!define ECS(e_alias, e_label, e_techn) AliyunEntity(e_alias, e_label, e_techn, Aliyun_COLOR, ECS, ECS)
+!define ECS(e_alias, e_label, e_techn, e_descr) AliyunEntity(e_alias, e_label, e_techn, e_descr, Aliyun_COLOR, ECS, ECS)
