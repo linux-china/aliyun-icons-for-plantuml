@@ -4,6 +4,7 @@
 !define Aliyun_BG_COLOR #FFFFFF
 !define Aliyun_BORDER_COLOR #FF8716
 
+
 ' Styling
 ' ##################################
 
@@ -24,6 +25,16 @@ skinparam Arrow {
     FontSize 12
 }
 
+!definelong AliyunEntityColoring(e_stereo)
+skinparam rectangle<<e_stereo>> {
+    BackgroundColor Aliyun_BG_COLOR
+    BorderColor Aliyun_BORDER_COLOR
+}
+!enddefinelong
+
+
+' Elements
+' ##################################
 !definelong AliyunEntity(e_alias, e_label, e_techn, e_color, e_sprite, e_stereo)
 rectangle "==e_label\n<color:#01C0DE><$e_sprite></color>\n//<size:TECHN_FONT_SIZE>[e_techn]</size>//" <<e_stereo>> as e_alias
 !enddefinelong
@@ -32,9 +43,5 @@ rectangle "==e_label\n<color:#01C0DE><$e_sprite></color>\n//<size:TECHN_FONT_SIZ
 rectangle "==e_label\n<color:e_color><$e_sprite></color>\n//<size:TECHN_FONT_SIZE>[e_techn]</size>//\n\n e_descr" <<e_stereo>> as e_alias
 !enddefinelong
 
-!definelong AliyunEntityColoring(e_stereo)
-skinparam rectangle<<e_stereo>> {
-    BackgroundColor Aliyun_BG_COLOR
-    BorderColor Aliyun_BORDER_COLOR
-}
-!enddefinelong
+
+
