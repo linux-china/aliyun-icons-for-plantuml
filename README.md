@@ -1,6 +1,11 @@
 Aliyun Icons for PlantUML
 =========================
 
+## Aliyun Icons
+
+* https://www.alibabacloud.com/help/zh/doc-detail/67830.htm
+* https://www.iconfont.cn/user/detail?uid=6856114
+* Blue theme: https://www.iconfont.cn/collections/detail?cid=21530
 
 ## Acknowledgements
 
